@@ -28,7 +28,7 @@ echo \
   
 sudo apt update
 sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
-sudo apt install docker-compose -y
+sudo apt install docker-compose -y (not needed)
 
 sudo service docker restart
 sudo chmod 666 /var/run/docker.sock
