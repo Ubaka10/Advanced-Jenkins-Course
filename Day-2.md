@@ -34,3 +34,6 @@ sudo service docker restart
 sudo chmod 666 /var/run/docker.sock
 sudo systemctl restart docker
 ```
+
+### To create sonarqube scanner
+docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
